@@ -1,27 +1,26 @@
 # tracertLogger
-
-### Description
+---
+#### Description
 Windows command script (tested on Windows7 and 10) that runs the tracert command-line utility and appends the timestamped result to a file.
 
-### Usage
-Easiest way to run this script will be to double click the file.
-By default, this script will run tracert against the IP address "8.8.8.8" (google's dns) and print results to "tracertLoggerResults.txt".
+#### Usage
+Easiest way to run this script will be to double click the file.<br>
+By default, this script will run tracert against the IP address "8.8.8.8" (google's dns) and print results to "tracertLoggerResults.txt".<br>
 Can also be ran like any other batchfile/command script (type "tracertLogger" in the terminal with the script in the current directory, call with another script, etc.)
 
-Will also take up to two additional input parameters.
-If one parameter is entered following the script call, it will write to that file (or create and write if the file doesn't exist).
-        
-If a second parameter is entered follow the script call, it will run tracert against that parameter (a website or IP address).
-e.g. 'tracertLogger newTracertResults.txt google.ca'
+Will also take up to two additional input parameters.<br>
+If one parameter is entered following the script call, it will write to that file (or create and write if the file doesn't exist).<br>
+If a second parameter is entered follow the script call, it will run tracert against that parameter (a website or IP address).<br>
+e.g. `tracertLogger newTracertResults.txt google.ca` will run tracert against "google.ca" and write to the "newTracertResults.txt" file.
 
-### To Do
-Accept only IP addresses?
-Add option flags instead of fixed order inputs?
-Add in script inputs to make it more beginner friendly?
-Rerun timer?
-Trace to additional/alternating targets?
+#### To Do
+Accept only IP addresses?<br>
+Add option flags instead of fixed order inputs?<br>
+Add in script inputs to make it more beginner friendly?<br>
+Rerun timer?<br>
+Trace to additional/alternating targets?<br>
 
-### License
+#### License
 MIT License
 
 Copyright (c) 2017 Kevin Tan
