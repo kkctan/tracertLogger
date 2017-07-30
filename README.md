@@ -9,7 +9,7 @@ Can also be ran like any other batchfile/command script (type "tracertLogger" in
 
 Will also take up to two additional input parameters.<br>
 If one parameter is entered following the script call, it will write to that file (or create and write if the file doesn't exist).<br>
-If a second parameter is entered follow the script call, it will run tracert against that parameter (a website or IP address).<br>
+If a second parameter is entered following the script call, it will run tracert against that parameter (a website or IP address).<br>
 e.g. `tracertLogger newTracertResults.txt google.ca` will run tracert against "google.ca" and write to the "newTracertResults.txt" file.
 
 #### To Do
