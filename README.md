@@ -1,5 +1,4 @@
 # tracertLogger
----
 #### Description
 Windows command script (tested on Windows7 and 10) that runs the tracert command-line utility and appends the timestamped result to a file.
 
