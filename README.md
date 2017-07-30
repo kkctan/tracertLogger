@@ -10,9 +10,8 @@ Can also be ran like any other batchfile/command script (type "tracertLogger" in
 
 Will also take up to two additional input parameters.
 If one parameter is entered following the script call, it will write to that file (or create and write if the file doesn't exist).
-        
 If a second parameter is entered follow the script call, it will run tracert against that parameter (a website or IP address).
-e.g. 'tracertLogger newTracertResults.txt google.ca'
+e.g. `tracertLogger newTracertResults.txt google.ca`
 
 ### To Do
 Accept only IP addresses?
