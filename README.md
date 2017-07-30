@@ -1,9 +1,9 @@
-#tracertLogger
+# tracertLogger
 
-####Description
+### Description
 Windows command script (tested on Windows7 and 10) that runs the tracert command-line utility and appends the timestamped result to a file.
 
-####Usage
+### Usage
 Easiest way to run this script will be to double click the file.
 By default, this script will run tracert against the IP address "8.8.8.8" (google's dns) and print results to "tracertLoggerResults.txt".
 Can also be ran like any other batchfile/command script (type "tracertLogger" in the terminal with the script in the current directory, call with another script, etc.)
@@ -14,14 +14,14 @@ If one parameter is entered following the script call, it will write to that fil
 If a second parameter is entered follow the script call, it will run tracert against that parameter (a website or IP address).
 e.g. 'tracertLogger newTracertResults.txt google.ca'
 
-####To Do
+### To Do
 Accept only IP addresses?
 Add option flags instead of fixed order inputs?
 Add in script inputs to make it more beginner friendly?
 Rerun timer?
 Trace to additional/alternating targets?
 
-####License
+### License
 MIT License
 
 Copyright (c) 2017 Kevin Tan
